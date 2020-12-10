@@ -1,0 +1,57 @@
+.root {
+     -fx-background-image: url("BackForChatic.jpeg");
+
+}
+
+#arrow {
+    -fx-border-radius: 25;
+    -fx-background-radius:25;
+    -fx-font-size: 16;
+    -fx-background-color:"5b53d8";
+    -fx-text-fill: "white";
+}
+
+#arrow1 {
+    -fx-border-radius: 25;
+    -fx-background-radius: 25;
+    -fx-font-size: 16;
+    -fx-background-color:"5b53d8";
+    -fx-text-fill: "white";
+}
+
+
+
+#Label {
+    -fx-font-size: 30px;
+    -fx-font-family: "Arial";
+    -fx-text-fill: "white";
+}
+
+#mes {
+    -fx-border-radius: 10;
+    -fx-background-radius: 10;
+    -fx-font-size: 15;
+    -fx-background-color:"5b53d8";
+    -fx-text-fill: "white";
+    -fx-label-padding: 1em 1em 1em 1em;
+}
+
+#field {
+
+    -fx-font-size: 15;
+
+}
+
+
+#arrow:hover {
+    -fx-background-color: white;
+    -fx-text-fill: "5b53d8";
+    -fx-border-color: "5b53d8" ;
+}
+
+#arrow1:hover {
+    -fx-background-color: white;
+    -fx-text-fill: "5b53d8";
+    -fx-border-color: "5b53d8" ;
+}
+.scroll-pane .viewport { -fx-background-image: url("BackForChatic.jpeg");}
