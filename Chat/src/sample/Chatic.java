@@ -61,7 +61,7 @@ BorderPane root = new BorderPane();
         BorderPane.setAlignment(hbBtn, Pos.TOP_CENTER);
 
         //LABEL1 "СООБЩЕНИЕ"
-        Label Mes1 = new Label("Пользователь1\nСообщение\nЗдрасьте");
+        Label Mes1 = new Label("Здрасьте");
         Mes1.setMinSize(50, 20);
         Mes1.setMaxSize(180, 150);
         Mes1.setWrapText(true);
