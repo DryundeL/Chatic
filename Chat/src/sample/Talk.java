@@ -13,10 +13,12 @@ import java.util.concurrent.TimeUnit;
 public class Talk {
     private static Label Mes;
     private static Timer timer;
+   private static int rowind = 1;
+    private static int i = 0;
+    private static String text = Chatic.EnterMessage.getText();
     public static void Govorilka() {
-        int rowind = 1;
-        int i = 0;
-        String text = Chatic.EnterMessage.getText();
+
+
         if (i <= Chatic.countMes) {
 
             Chatic.countMes +=1;
@@ -42,6 +44,8 @@ public class Talk {
             alert.showAndWait();
 
         }
+    }
+        public static void Answ(){
         if (!text.equals("")) {
             try {
 
